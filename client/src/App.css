@@ -19,7 +19,7 @@
 .jumbotron {
   padding:70px 30px 70px 30px;
   margin:0px auto;
-  background: #9575CD ;
+  background: white ;
   color:floralwhite;
 }
 
@@ -31,4 +31,12 @@ address{
 
 .navbar-dark {
   background-color: #512DA8;
+}
+
+
+@media only screen and (max-width: 700px) {
+  #but {
+    height: 15vw;
+    width: 30vw;
+  }
 }
