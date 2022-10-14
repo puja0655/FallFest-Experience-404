@@ -48,7 +48,7 @@ function Premium(){
         console.log(data);
 
         const options = {
-            key: 'rzp_test_GZoIhlpTT3QTn2', // Enter the Key ID generated from the Dashboard
+            key: 'TEST_RAZOR_PAY_ID', // Enter the Key ID generated from the Dashboard
             currency:'INR',
             amount:500 * 100,
             order_id:data.id,
