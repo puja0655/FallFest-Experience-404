@@ -39,7 +39,7 @@ class Register extends Component{
 
     handleLogin(event){
         
-        alert('Company name:'+ this.companyname.value +' Password:'+this.password.value);
+        alert('Company name:'+ this.companyname.value);
         event.preventDefault(); //prevent to reassemble the page
     
         axios.post('http://localhost:8000/register',{companyname:this.companyname.value,founder:this.founder.value,mobile:this.mobile.value,password:this.password.value,sector:this.state.value,region:this.state.value2,description:this.description.value})
